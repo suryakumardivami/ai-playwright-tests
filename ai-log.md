@@ -4,6 +4,7 @@
 "Generate a Playwright test for Swag Labs login page that checks invalid login shows an error."
 
 **AI Output:**  
+```ts
 import { test, expect } from '@playwright/test';
 
 test.describe('Swag Labs Login', () => {
@@ -51,3 +52,4 @@ test.describe('Swag Labs Login', () => {
 
 **Edits Made:**  
 - None (test passed as-is).
+```
