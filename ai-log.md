@@ -25,9 +25,10 @@ test.describe('Swag Labs Login', () => {
     await expect(errorMessage).toContainText('Username and password do not match');
   });
 });
+```
 
-
-**Final Working Test:**  
+**Final Working Test:** 
+```ts 
 import { test, expect } from '@playwright/test';
 
 test.describe('Swag Labs Login', () => {
@@ -48,8 +49,7 @@ test.describe('Swag Labs Login', () => {
     await expect(errorMessage).toContainText('Username and password do not match');
   });
 });
-
+```
 
 **Edits Made:**  
 - None (test passed as-is).
-```
